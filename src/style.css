@@ -1,3 +1,150 @@
-h1, p {
-  font-family: Lato;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.6;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  width: 100%;
+}
+.header-poster {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  background-size: cover;
+  height: 456px;
+}
+.heading {
+  text-align: center;
+  font-size: 2.675rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.sub-heading{
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: #293951;
+  margin-bottom: 3em;
+}
+article{
+  color: #4a4a4a;
+  font-size: 1.25rem;
+}
+.shopping-man-img{
+  width: 100%;
+    margin-top: 1em;
+}
+.subscribe{
+  justify-content: space-evenly;
+   margin-top: 4em !important;
+    background-color: #f4f8fd;
+    height: 200px;
+    align-items: center;
+   }
+.text-container{
+  width: 35%;
+}
+.input-container{
+  flex-direction: column;
+  margin-top: 2.5rem;
+  width: 20%;
+}
+input{
+  padding: 11px 15px;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    color: #4a4a4a;
+    border: 1px solid #9b9b9b;
+    background-color: #fff;
+    margin-bottom: 1em;
+    outline: 0;
+}
+.button{
+  padding: 11px 15px;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #fbaf03;
+  border: 0;
+  outline: 0;
+  color: #fff;
+}
+.fampay-container{
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  width: 100%;
+}
+
+.icon{
+  display: flex;
+    margin: 1em 0;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.card{
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1254px;
+}
+.col-4{
+  width: 30%;
+  border-radius: 0.55rem;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all 0.3s linear;
+}
+.col-4:hover{
+  cursor: pointer;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.card-img{
+  width: 100%;
+  border-top-left-radius: 0.55rem;
+  border-top-right-radius: 0.55rem;
+  height: 210px;
+}
+.card-body{
+  padding: 1.5em;
+}
+.card-p{
+  font-size: 1rem;
+}
+.card-text{
+  margin: 1em 0;
+}
+footer{
+  height: 230px;
+  background-color: #293951;
+  color: #fff;
+  width: 100%;
+  margin-top: 3em;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icon{
+  display: flex;
+    justify-content: space-between;
+    margin: 1.5em 0;
+    font-size: 1.25rem;
 }

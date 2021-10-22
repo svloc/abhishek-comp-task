@@ -1,11 +1,11 @@
 import React from "react";
+import { Route, Switch } from "react-router";
+import Home from "./component/Home";
 import "./style.css";
-
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <Switch>
+      <Route path='/' component={Home}/>
+    </Switch>
   );
 }
